@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>예약페이지 연습</title>
+    <link rel="stylesheet" href="css/target1_mypage.css" />
+  </head>
+  <body>
+    <!-- 전체 레이아웃 영역 -->
+    <div class="wrap">
+      <!-- 메뉴 (상단) -->
+      <nav class="navi">
+        <ul>
+          <li><a href="target1.html#inform">강아지 정보</a></li>
+          <li><a href="target1.html#recommend">맞춤 추천</a></li>
+          <li><a href="target1.html#community">커뮤니티</a></li>
+          <li><a href="target1.html#announcement">공지사항</a></li>
+          <li><a href="#">마이페이지</a></li>
+        </ul>
+      </nav>
+      <!-- 마이페이지 -->
+      <form id="mypage">
+        <!-- 개인정보 -->
+        <fieldset>
+          <legend>개인정보 설정</legend>
+          <ul class="user">
+            <li>
+              <label for="fullname">이름</label>
+              <input type="text" id="fullname" placeholder="" />
+            </li>
+            <li>
+              <label for="tell">연락처</label>
+              <input type="tell" id="tell" />
+            </li>
+            <li>
+              <label for="email">이메일</label>
+              <input type="email" id="email" />
+            </li>
+          </ul>
+        </fieldset>
+        <!-- 내 강아지 정보 (이름, 나이, 견종)-->
+        <fieldset>
+          <legend>내 강아지 정보 설정</legend>
+          <ul class="dog">
+            <li>
+              <label for="fullname">이름</label>
+              <input type="text" id="fullname" placeholder="" />
+            </li>
+            <li>
+              <label for="age">나이</label>
+              <input type="number" id="age" />
+            </li>
+            <li>
+              <label for="breed">견종</label>
+              <input type="text" id="breed" />
+            </li>
+          </ul>
+        </fieldset>
+        <!-- 완료 버튼 -->
+         <div class="btn-area">
+          <p class="notice">정보를 확인하신 후 확인을 눌러주세요</p>
+          <button type="submit">확인</button>
+         </div>
+      </form>
+    </div>
+  </body>
+</html>

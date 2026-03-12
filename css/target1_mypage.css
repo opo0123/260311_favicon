@@ -1,0 +1,16 @@
+@import url(target1.css);
+/* 전체영역 (마이페이지) */
+#mypage{
+    width: 500px;
+    margin: 20px auto;
+    background-color: aliceblue;
+}
+#mypage fieldset{
+    padding: 20px;
+    background-color: antiquewhite;
+}
+#mypage fieldset legend{
+    font-size: 18px;
+}
+
+/* 개인정보 */
